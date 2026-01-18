@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-size-adjust",
+          "-webkit-overflow-scrolling",
+          "-ms-touch-action"
+        ]
+      }
+    ],
+    "disown-opener": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "css-prefix-order": "off",
+    "meta-viewport": "off",
+    "highest-available-document-mode": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 26",
+    "not safari <= 26.1",
+    "not and_chr <= 142",
+    "not chrome <= 142",
+    "not edge <= 142",
+    "not opera <= 122",
+    "not samsung <= 29"
+  ]
+}
