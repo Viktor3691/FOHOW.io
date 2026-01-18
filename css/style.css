@@ -439,7 +439,7 @@ img {
 .header-top {
   /*position: relative;*/
   position: fixed;
-  background-color: #212121;
+  background-color: #015524;
   padding: 2px 0;
   width: 100%;
   top: 0;
@@ -12897,8 +12897,6 @@ section.contact-form-section.style-three {
   font-weight: 700;
 }
 
-
-
 .product-details-content .product-details .title-box .customer-review {
   position: relative;
   margin-bottom: 1px;
@@ -13770,7 +13768,6 @@ section.contact-form-section.style-three {
   position: relative;
 }
 
-
 .myaccount-section .register-inner .text {
   position: absolute;
   right: 0px;
@@ -14122,7 +14119,6 @@ section.contact-form-section.style-three {
   background: #cd201f;
 }
 
-
 .product-discription .tabs-content .single-review-box h5 span {
   color: #a3a3a3;
   font-family: "Heebo", sans-serif;
@@ -14153,7 +14149,6 @@ section.contact-form-section.style-three {
 .myaccount-section .form-group input:focus {
   border-color: #3133d0 !important;
 }
-
 
 .myaccount-section .form-group button.theme-btn-four {
   background: #3133d0;
