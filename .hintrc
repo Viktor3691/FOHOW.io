@@ -10,7 +10,9 @@
         "ignore": [
           "text-size-adjust",
           "-webkit-overflow-scrolling",
-          "-ms-touch-action"
+          "-ms-touch-action",
+          "orphans",
+          "widows"
         ]
       }
     ],
