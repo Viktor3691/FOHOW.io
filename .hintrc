@@ -12,7 +12,10 @@
           "-webkit-overflow-scrolling",
           "-ms-touch-action",
           "orphans",
-          "widows"
+          "widows",
+          "text-size-adjust: none",
+          "min-height: auto",
+          "speak-as"
         ]
       }
     ],

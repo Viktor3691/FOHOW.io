@@ -1,0 +1,59 @@
+/* RTL Css */
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .owl-carousel {
+  direction: ltr;
+}
+
+.rtl .main-menu .navigation > li > ul {
+  left: auto;
+  right: 0;
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul {
+  left: auto;
+  right: 100%;
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a {
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li:after {
+  right: auto;
+  left: 0;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after {
+  right: auto;
+  left: 0;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li > a {
+  text-align: right;
+}
+
+@media only screen and (max-width: 1600px) {
+  .rtl .main-menu .navigation > li:nth-last-child(-n + 3) > ul > li > ul {
+    right: auto;
+    left: 100%;
+  }
+  .rtl .main-menu .navigation > li:nth-last-child(-n + 2) > ul {
+    right: auto;
+    left: 0;
+  }
+  .rtl .main-menu .navigation > li:nth-last-child(-n + 2) > ul > li > ul {
+    right: auto;
+    left: 100%;
+  }
+}
+
+.rtl .banner-section .banner-slider-nav {
+  direction: ltr;
+}
